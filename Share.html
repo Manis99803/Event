@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Event.css">
+	<link rel="stylesheet" href="Event1.css">
+	<style >
+		#Title
+		{
+			position: absolute;
+			top:80px;
+			left:530px;
+			color:white;
+			font-size:30px;
+			text-align: center;
+
+		}
+		#pics
+		{
+			position:absolute;
+			top:420px;
+			left:380px;
+			color:white;
+
+		}
+		p
+		{
+			color:white;
+			font-size:25px;
+			position:absolute;
+			top:390px;
+			left:20px;
+		}
+		input[type="submit"]
+		{
+				position: absolute;
+				top:470px;
+				left:180px;
+				height:50px;
+				width:250px;
+				font-size:25px;
+				color:white;
+				background-color:Orange;
+				font-family: Times New Roman;
+				border-radius:10px;
+		}
+       #Title1
+        {
+                font-size:30px;
+                color:white;
+                position: absolute;
+                top:10px;
+        }
+         #Title1:hover
+            {
+                color:orange;
+            }
+           #close
+           {
+           	height:30px;
+           	position: absolute;
+           	left:1480px;
+           }
+	</style>
+	<title>Share Your moment</title>
+</head>
+<body>
+
+		<div id="Main">
+		  <a id="Title1" href="Index3.html">EvenTrova</a>
+
+          <a id="Home" class="font" href="#">Home</a>
+          <a id="Event" class="font" href="#">Event</a>
+      
+
+            
+            <a id="create"  class="font" href="Event.html">Create Event</a>
+
+         
+          <a id="Login" class="font" href="Login.html">Login</a>
+          <a id="Signup" class="font" href="Signup.html">Signup</a>
+        </div>
+		<a href="Index3.html"><img id="close" src="close-icon.png" ></img></a>
+		<div id="Title">Share your event Experience with EventTrova</div>
+		<div id="Create">
+				<form action="Event.php" method="POST">
+						<input type="text" id="Event_name" name="Event" class="size" placeholder="Event Title" required maxlength="20">
+						<input type="text" id="Event_type" name ="Event_type" class="size" placeholder="Event Type" required maxlength="100"><br>
+						<input type="URL" id="website"  name="website" class="size" placeholder="Event Web Link" required>
+						<input type="text" id="Location" name="Location" class="size" placeholder="Location" required maxlength="50"><br>
+						<input type="text" id="State" name="State" class="size" placeholder="State" required maxlength="15"><br>
+						<input type="text" id="Date" name="Date" class="size" placeholder="Date" required maxlength="10"><br>
+						<input type="textarea" id="Description" name="Description" placeholder="Your Experience" class="size" required maxlength="200">
+						<p>Upload a pic about your Event</p><input type="file" name="pic" id="pics" accept="image/*">
+						<input type="submit" value="Submit" >
+				</form>
+		</div>
+</body>
+</html>

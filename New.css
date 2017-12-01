@@ -1,0 +1,92 @@
+
+.Main_container {
+  position: relative;
+  width: 10%;
+}
+
+.image1 {
+  display: block;
+  width: 300px;
+  height: auto;
+  height: 250px;
+  
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: Orange;
+  overflow: hidden;
+  width: 0;
+  height: 250px;
+  transition: .5s ease;
+}
+
+.Main_container:hover .overlay1 {
+  width: 200px;
+
+
+}
+
+.text1 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#first_container
+{
+  position: absolute;
+  left:80px;
+  top:100px;
+  background-image:url(Trek.jpg); 
+}
+
+#Second_container
+{
+  position: absolute;
+  left:440px;
+  top:100px;
+}
+
+#Third_container
+{
+  position: absolute;
+  left:810px;
+  top:100px;
+}
+
+#Fourth_container
+{
+  position: absolute;
+  left:1150px;
+  top:100px;
+}
+
+
+#fifth_container
+{
+  position: absolute;
+  left:80px;
+  top:460px;
+}
+
+#Sixth_container
+{
+  position: absolute;
+  left:440px;
+  top:460px;
+}
+/*#container2
+{
+  position: absolute;
+  left:00px;
+  top:200px;
+}*/

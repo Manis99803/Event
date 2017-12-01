@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input:focus,select:focus,textarea:focus,button:focus
+            {
+                outline:none;
+            }
+            #close
+            {
+                height: 50px;
+                position: absolute;
+                left:1450px;
+
+            }
+            input:focus,select:focus,textarea:focus,button:focus
+            {
+                outline:none;
+            }
+            #Main
+            {
+                height: 50px;
+                /*width:1500px;*/
+                background-color: black;
+            }
+            #Home
+            {
+                position:relative;
+                left:750px;
+                font-weight: none;
+            }
+
+            #Event
+            {
+                position:relative;
+                left:850px;
+            }
+
+            #Login
+            {
+                position:relative;
+                
+                left:1050px;
+            }
+
+            #Signup
+            {
+                position:relative;
+                left:1150px;
+  
+            }
+            #create
+            {
+                position: relative;
+                left:950px;
+            }
+            .font
+            {
+                font-size:15px;
+                color:white;
+                position: absolute;
+                top:10px;
+            }
+            a
+            {
+                text-decoration: none;
+                font-size:10px;
+                color:white;
+                font-family: Verdana,sans-serif;
+            }
+            #Title
+            {
+                font-size:30px;
+                color:white;
+                position: absolute;
+                top:10px;
+            }
+             #Title:hover
+            {
+                color:orange;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="Signup.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+
+    </head>
+    <title>Signup</title>
+    <body>
+       <div id="Main">
+          <a href="Index3.html" id="Title">EvenTrova</a>
+          <a class="font" id="Home" href="#">Home</a>
+          <a class="font" id="Event" href="#">Event</a>
+
+            
+                <a class="font" id="create" href="Event.html">Create Event</a>
+        
+          <a class="font" id="Login" href="Login.html">Login</a>
+          <a class="font" id="Signup" href="Signup.html">Signup</a>
+        </div>
+      <div id="main">
+<div id="first">
+</div>
+<div id="second">
+<p id="container">
+<a href="Index3.html"><img id="menu" src="close-icon.png"></img></a>
+
+       <table class="centered-table" border=4 align=" center"><tr><td>
+       <form action="Signup.php" method='POST'>
+
+            <input type="text" placeholder=" Name" required name="name">
+            <input id="college" type="text" placeholder=" College" required name="college"><br><br>
+            <select name="state"><br>
+                <option value="Karnataka">Karnataka</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="place">
+                <option  value='Bengaluru'>Bengaluru</option>
+            </select><br><br>
+            <input type="email" placeholder="Email-id" required name="email">
+            <input  id="password" type="password" placeholder=" Password" required name="password"><br><br><br>
+            <input type="submit" value="Signup"><br><br><br><br><br><br><hr></hr>
+            <p >Or connect with:</p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-twitter"></a>
+
+        </form>
+        </td></tr>
+        </table>
+
+    </body>
+</html>

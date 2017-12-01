@@ -1,0 +1,225 @@
+           .mySlides {display:none;width:600px;height:600px;}
+            #Subscribe
+            {
+              position: relative;
+              top:80px;
+              left:170px;
+              width:900px;
+              height:50px;
+            }
+            #SubscribeButton
+            {
+              position: relative;
+              top:80px;
+              left:170px;
+              height:50px;
+              width:200px;
+            }
+            #Wall
+            {
+              height: 800px;
+              width:100%;
+              background-color:white;
+              position: relative;
+              top:750px;
+              /*background-image:url(.jpg);*/
+              background-color:#B5c9c9;
+        
+            }
+
+            #wall_title
+            {
+              font-size:40px;
+              font-family:Calibri;
+              position:absolute;
+              left:80px;
+              bottom:725px;
+              
+            }
+            
+            #About
+            {
+              position: absolute;
+              
+              top:2500px;
+
+              background-color: #E11613;
+              width:100%;
+              height: 600px;
+
+
+            }
+            #Title
+            {
+              font-size:80px;
+            }
+            #Follow
+            {
+              position: absolute;
+              top:150px;
+              left:1160px;
+              font-size:30px;
+              color:white;
+            }
+            #des2
+            {
+              position: absolute;
+              top:0px;
+              left:20px;
+            }
+            .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #333;
+    position:relative;
+    left:1090px;
+    bottom:250px;
+    color: white;
+
+}
+.fa-twitter {
+    background: #333;
+    color: white;
+    position:relative;
+    left:1100px;
+    bottom:250px;
+    
+}
+.fa-instagram {
+    background: #333;
+    color: white;
+    position:relative;
+    left:1110px;
+    bottom:250px;
+    
+}
+#Sub
+{
+  color:white;
+  position: absolute;
+  margin-top:60px;
+  width:1000px;
+}
+#marquee
+{
+  position: relative;
+  top:800px;
+}
+#category-title
+{
+  position: absolute;
+  left:650px;
+  bottom:-75px;
+  font-size:40px;
+  color:orange;
+  font-style:Cambria;
+  
+
+}
+.content
+{
+  position: absolute;
+  bottom:-1px;
+  font-size:13px;
+  color:#FFFFFF;
+}
+#Subscription
+{
+  position: absolute;
+  top:2300px;
+  height:200px;
+}
+#des1
+{
+  position: absolute;
+  bottom:0px;
+  left:10px;
+  color:#333;
+  
+
+  /*background-color: red;*/
+}
+#des_1
+{
+    position: absolute;
+    top:350px;
+    left:80px;
+    border:3px solid black;
+    display: block;
+    width:300px;
+    height: 70px;
+    color:black;
+    background-color: #FFFFFF;
+}
+#des_2
+{
+    position: absolute;
+    top:350px;
+    left:440px;
+    border:3px solid black;
+    display: block;
+    width:300px;
+    height: 70px;
+    color:black;
+    background-color: #FFFFFF;
+
+}
+#des_3
+{
+    position: absolute;
+    top:350px;
+    left:810px;
+    border:3px solid black;
+    display: block;
+    width:300px;
+    height: 70px;
+    color:black;
+    background-color: #FFFFFF;
+}
+#des_4
+{
+    position: absolute;
+    top:350px;
+    left:1150px;
+    border:3px solid black;
+    display: block;
+    width:300px;
+    height: 70px;
+    color:black;
+    background-color: #FFFFFF;
+}
+#des_5
+{
+    position: absolute;
+    top:710px;
+    left:80px;
+    border:3px solid black;
+    display: block;
+    width:300px;
+    height: 70px;
+    color:black;
+    background-color: #FFFFFF;
+}
+#des_6
+{
+    position: absolute;
+    top:710px;
+    left:440px;
+    border:3px solid black;
+    display: block;
+    width:300px;
+    height: 70px;
+    color:black;
+    background-color: #FFFFFF;
+}

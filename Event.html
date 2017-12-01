@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Event.css">
+	<link rel="stylesheet" href="Event1.css">
+	<style>
+	  #Title1
+        {
+                font-size:30px;
+                color:white;
+                position: absolute;
+                top:10px;
+        }
+        #Title1:hover
+        {
+        	color:orange;
+        }
+        #close
+            {
+                height: 25px;
+                position: absolute;
+                left:1480px;
+                top:60px;
+
+            }
+        p
+        {
+        	position: absolute;
+        	top:60px;
+        	left:700px;
+        	font-size:30px;
+        	color:white;
+        }
+     </style>
+	<title>Create Event</title>
+</head>
+<body>
+		<div id="Main">
+			<a href="Index3.html" id="Title1">EvenTrova</a>
+          <a id="Home" class="font" href="#">Home</a>
+          <a id="Event" class="font" href="#">Event</a>
+      
+
+            
+            <a id="create"  class="font" href="Event.html">Create Event</a>
+
+         
+          <a id="Login" class="font" href="Login.html">Login</a>
+          <a id="Signup" class="font" href="Signup.html">Signup</a>
+        </div>
+        <p>Create a Event</p>
+  		<a href="Index3.html"><img id="close" src="close-icon.png" ></img></a>
+		<div id="Create">
+				<form action="Event.php" method="POST">
+						<input type="text" id="Event_name" name="Event" class="size" placeholder="Event Title" required maxlength="20">
+						<input type="text" id="Event_type" name ="Event_type" class="size" placeholder="Event Type" required maxlength="100"><br>
+						<input type="URL" id="website"  name="website" class="size" placeholder="Event Web Link" required>
+						<input type="text" id="Location" name="Location" class="size" placeholder="Location" required maxlength="50"><br>
+						<input type="text" id="State" name="State" class="size" placeholder="State" required maxlength="15"><br>
+						<input type="text" id="Date" name="Date" class="size" placeholder="Date" required maxlength="10"><br>
+						<input type="textarea" id="Description" name="Description" placeholder="Description about Event" class="size" required maxlength="200">
+						<input type="submit" value="Submit" >
+				</form>
+		</div>
+</body>
+</html>
